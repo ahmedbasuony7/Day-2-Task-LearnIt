@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registeration  </title>
+
+
+</head>
+<body>
+    
+    <div>
+        <form action="Thankyou.html"   method="get"  
+            style="position: absolute; margin-top: 10px;  left: 50%;  
+            transform: translate(-50%);  border: 3px solid #eee; 
+            padding:10px 30px 15px 30px; border-radius: 15px;"
+        >
+        
+            <div>
+                <label for="userId"> userId </label>
+                <input type="hidden"  name="userId" >
+            </div>
+
+
+            <div>
+                <label for="firstName">  firstName </label>
+                <input type="text"  name="firstName"  style="margin: 5px 1px 0px 0px"  />
+            </div>
+
+            <div>
+                <label for="lastName">  lastName  </label>
+                <input type="text"  name="lastName"  style="margin: 5px " />
+            </div>
+
+            <div>
+                <label for="password">  password </label>
+                <input type="password"   name="password"  style="margin: 5px " />
+            </div>
+
+            <div>
+                <label for="Repeate password">  Repeate password </label>
+                <input type="password"   name="Repeate password" style="margin: 5px " />
+            </div>
+
+            <div>
+                <label for="userPicture">  userPicture </label>
+                <input type="file"   name="userPicture" style="margin: 5px "  /> 
+            </div>
+
+            <div>
+                <label for="Gender">  Gender </label>
+                <br />
+                <label for="male">  male </label>
+                <input type="radio"   name="male">
+                <br />
+                <label for="femele">  femele </label>
+                <input type="radio"   name="femele">
+            </div>
+
+            <div style="margin: 10px 0px ">
+                <label for="faculty"  >  faculty </label>
+                <select  name="faculty"  for="faculty">
+                    <option value="Enginnering"> Enginnering </option>
+                    <option value="Education"> Education </option>
+                    <option value="Medicine"> Medicine </option>
+                    <option value="piolte"> piolte </option>
+                    
+                </select>
+                
+            </div>
+
+            <div>
+                <label for="Interests"> Interests </label>
+                <br />
+                <input type="checkbox"   id="Programming" value="Programming" name="Programming">
+                <label for="Programming"> Programming </label>
+                <br />
+
+                <input type="checkbox"  id="reading"  name="reading">
+                <label for="reading"> reading </label>
+                <br />
+
+                <input type="checkbox"  id="swimming" name="swimming">
+                <label for="swimming"> swimming </label>
+                <br />
+            </div>
+
+            <div>
+                <p>  About You Give Us Breif About You.. </p>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+
+            <div>
+                <label for="aggree"> I agreed to terms and condition checkbox</label>
+                <input type="checkbox" id="aggree"  value="aggree">
+            </div>
+
+            <div style="display: flex; margin-top: 10px; "> 
+                <input type="submit" value="submit"  style="padding: 5px 10px;">
+                <input type="reset" value="Reset" style="padding: 5px 10px; margin-left: 10px;">
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

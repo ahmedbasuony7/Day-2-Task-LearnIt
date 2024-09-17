@@ -1,0 +1,193 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+
+/*  start  header  */
+.header{
+    height : 100px;
+    background-color: rgb(145, 158, 122);
+}
+
+.header-img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+/*  end  header  */
+
+/*  start  navbar  */
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 221, 196);
+}
+.navbar-list  ul   {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+}
+.navbar-list  ul li {
+    margin-left: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+/*  end  navbar  */
+
+
+
+/*  start  section  */
+.section {
+    height: 750px;
+
+}
+.section-left-register ,
+.section-left-social ,
+.section-left-video {
+    border-bottom: 1px solid black;
+}
+
+.section .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.section .container  .section-left {
+    height: 750px;
+    width: 305px;
+    /* padding: 13px 0px; */
+    background-color: rgb(184, 193, 167);
+
+
+}
+.section-left-social {
+    margin: 20px 0px;
+}
+.fa-brands{
+    padding: 10px;
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    /* margin-left: 50px; */
+}
+.fa-facebook {
+    color: #4267B2;
+}
+.fa-instagram{
+    color:#E1306C;
+}
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+
+.section-left-video {
+    padding: 10px 0px;
+    margin: 10px 10px;
+}
+
+
+.section-center {
+    width: 610px;
+    height: 500px;
+    margin: 0px;
+    height: 750px;
+    /* padding: 250px 0px 0px 0px ; */
+    background-color: rgb(194, 203, 178);
+
+}
+.section-center  h1{
+    padding: 0px;
+
+}
+
+
+
+
+
+
+
+
+.section-right {
+    width: 300px;
+    background-color: #eee;
+    height: 750px;
+    /* padding: 110px 0px; */
+}
+.section-right-personalImage {
+    padding: 50px  20px 30px 50px; 
+    margin: 20px 0px;
+    border-bottom: 1px solid  black;
+}
+.personalImage {
+    width: 200px;
+    width: 200px;
+}
+.section-right-Newes {
+    padding: 50px  20px  0px 20px; 
+}
+/* .section-right-Newes  h2 {
+    padding: 0px;
+} */
+
+
+
+/*  end   section*/
+
+
+@media(max-width:1250px) {
+    .footer{
+        margin-top: 750px;
+    }
+} 
+@media(max-width:925px) {
+    .footer{
+        margin-top: 750px;
+    }
+    .section-center {
+        width: 350px;
+    }
+} 
+@media(max-width:767px) {
+    .footer{
+        margin-top: 1500px;
+    }
+} 
+
+/* start  footer  */
+
+.footer  {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(145, 158, 122);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-link  a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*  end  footer */
+
+
+
